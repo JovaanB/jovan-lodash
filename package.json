@@ -4,11 +4,13 @@
   "description": "Lodash rewrites with TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint ./src --ext .ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JovaanB/jovan-lodash.git"
+    "url": "https://github.com/JovaanB/jovan-lodash.git"
   },
   "keywords": [
     "lodash",
@@ -21,6 +23,14 @@
   },
   "homepage": "https://github.com/JovaanB/jovan-lodash#readme",
   "devDependencies": {
-    "jest": "^29.4.3"
+    "@babel/preset-env": "^7.20.2",
+    "@types/jest": "^29.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "eslint": "^8.34.0",
+    "husky": "^8.0.3",
+    "jest": "^29.4.3",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
   }
 }
