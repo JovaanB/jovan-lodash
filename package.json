@@ -1,0 +1,26 @@
+{
+  "name": "jovan-lodash",
+  "version": "1.0.0",
+  "description": "Lodash rewrites with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JovaanB/jovan-lodash.git"
+  },
+  "keywords": [
+    "lodash",
+    "typescript"
+  ],
+  "author": "Jovan BIENVENU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JovaanB/jovan-lodash/issues"
+  },
+  "homepage": "https://github.com/JovaanB/jovan-lodash#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
