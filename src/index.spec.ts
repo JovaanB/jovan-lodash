@@ -16,4 +16,12 @@ describe("isBoolean", () => {
   test("should return false for isBoolean(1)", () => {
     expect(isBoolean("1")).toBe(false);
   });
+
+  test("should return false for isBoolean(1)", () => {
+    expect(isBoolean(!!0)).toBe(true);
+  });
+
+  test("should return false for isBoolean(1)", () => {
+    expect(isBoolean(Boolean(0))).toBe(true);
+  });
 });
