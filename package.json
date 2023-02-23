@@ -1,14 +1,17 @@
 {
   "name": "jovan-lodash",
-  "version": "1.0.0",
+  "version": "1.0.42",
   "description": "Lodash rewrites with TypeScript",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
     "build": "tsc",
     "lint": "eslint ./src --ext .ts"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/JovaanB/jovan-lodash.git"
