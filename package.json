@@ -1,6 +1,6 @@
 {
   "name": "jovan-lodash",
-  "version": "1.0.421",
+  "version": "1.0.42",
   "description": "Lodash rewrites with TypeScript",
   "main": "dist/index.js",
   "scripts": {

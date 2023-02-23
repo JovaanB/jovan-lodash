@@ -1,5 +1,1 @@
-import { isBoolean } from "./isBoolean";
-
-export default {
-  isBoolean,
-};
+export const isBoolean = (value: any) => typeof value === "boolean";

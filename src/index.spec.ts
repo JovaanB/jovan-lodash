@@ -1,4 +1,4 @@
-import { isBoolean } from "./isBoolean";
+import { isBoolean } from "./index";
 
 describe("isBoolean", () => {
   test("should return false for isBoolean(6)", () => {
